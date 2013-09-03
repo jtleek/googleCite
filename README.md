@@ -6,8 +6,8 @@ for a longer description. The basic use is:
 
 
 ```S
-source("")
-
+library(devtools)
+source_gist(6424430)
 ```
 
 Go to a google scholar citation page, this is [Rafa's](http://scholar.google.com/citations?user=nFW-2Q8AAAAJ&hl=en)
@@ -15,5 +15,5 @@ Go to a google scholar citation page, this is [Rafa's](http://scholar.google.com
 Call googleCite like this:
 
 ```S
-out = googleCite(“http://scholar.google.com/citations?user=nFW-2Q8AAAAJ&hl=en”,pdfname=”rafa_wordcloud.pdf”) 
+out = googleCite("http://scholar.google.com/citations?user=nFW-2Q8AAAAJ&hl=en",pdfname="rafa_wordcloud.pdf")
 ```
